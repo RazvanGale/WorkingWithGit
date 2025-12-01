@@ -1,0 +1,6 @@
+{
+  "Name": "TestAPIKey",
+  "ProjectType": "Process",
+  "Description": "Test API",
+  "MainFile": "Main.xaml"
+}

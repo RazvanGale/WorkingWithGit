@@ -1,0 +1,439 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "eQ7A3s2a1BAkyOZwtzzrBYXqgr+MnjjnBofuCYcO2AcWVMhUUtV2fchRbJp+jGxmP+x5UQQvItKagQt3fk5rUQ==",
+        "bundleName": "C1FBE35BB63_Pet",
+        "entitiesBundle": {
+          "Types": {
+            "tags": {
+              "name": "tags",
+              "properties": [
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"name\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int64, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"id\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "attributes": {
+                "values": [
+                  {
+                    "Type": {
+                      "ClrType": "System.Runtime.Serialization.DataContractAttribute, System.Runtime.Serialization.Primitives"
+                    },
+                    "constructorArguments": [],
+                    "namedArguments": []
+                  }
+                ]
+              },
+              "values": [],
+              "baseType": {
+                "ClrType": "UiPath.IntegrationService.Activities.Runtime.Models.JitObject, UiPath.IntegrationService.Activities.Runtime"
+              },
+              "generateChangeNotifications": true,
+              "skipEqualityCheckForChangeNotifications": true
+            },
+            "category": {
+              "name": "category",
+              "properties": [
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"name\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int64, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"id\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "attributes": {
+                "values": [
+                  {
+                    "Type": {
+                      "ClrType": "System.Runtime.Serialization.DataContractAttribute, System.Runtime.Serialization.Primitives"
+                    },
+                    "constructorArguments": [],
+                    "namedArguments": []
+                  }
+                ]
+              },
+              "values": [],
+              "baseType": {
+                "ClrType": "UiPath.IntegrationService.Activities.Runtime.Models.JitObject, UiPath.IntegrationService.Activities.Runtime"
+              },
+              "generateChangeNotifications": true,
+              "skipEqualityCheckForChangeNotifications": true
+            },
+            "Pet": {
+              "name": "Pet",
+              "properties": [
+                {
+                  "name": "tags",
+                  "type": {
+                    "definitionName": "tags"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"tags\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "isCollection": true,
+                  "collectionGenericType": {
+                    "ClrType": "System.Collections.Generic.List`1, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "category",
+                  "type": {
+                    "definitionName": "category"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"category\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "photoUrls",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"photoUrls\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "isCollection": true,
+                  "collectionGenericType": {
+                    "ClrType": "System.Collections.Generic.List`1, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"name\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int64, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"id\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "status",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.Runtime.Serialization.DataMemberAttribute, System.Runtime.Serialization.Primitives"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"status\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "attributes": {
+                "values": [
+                  {
+                    "Type": {
+                      "ClrType": "System.Runtime.Serialization.DataContractAttribute, System.Runtime.Serialization.Primitives"
+                    },
+                    "constructorArguments": [],
+                    "namedArguments": []
+                  }
+                ]
+              },
+              "values": [],
+              "baseType": {
+                "ClrType": "UiPath.IntegrationService.Activities.Runtime.Models.RootJitObject, UiPath.IntegrationService.Activities.Runtime"
+              },
+              "generateChangeNotifications": true,
+              "skipEqualityCheckForChangeNotifications": true
+            }
+          },
+          "Metadata": {},
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.C1FBE35BB63_Pet",
+        "hash": "ZVE3QTNzMmExQkFreU9ad3R6enJCWVhxZ3IrTW5qam5Cb2Z1Q1ljTzJBY1dWTWhVVXRWMmZjaFJiSnArakd4bVAreDVVUVF2SXRLYWdRdDNmazVyVVE9PQ",
+        "assemblyName": "C1FBE35BB63_Pet.p2DgS2mgUkQ1cOuCu3R27lX2"
+      }
+    }
+  ]
+}
